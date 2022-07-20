@@ -1,13 +1,19 @@
-import Resultat from './Form'
-import './App.css';
+// import Resultat from './Form'
+
+
+import Template from "./components/Template";
+import Welcome from "./components/Welcome";
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Resultat/>
+    <>
+      {/* <Resultat/> */}
+      <Template />
+      <Welcome/>
 
-    </div>
+    </>
   );
 }
 
